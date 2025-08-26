@@ -116,40 +116,40 @@ graph LR
   Venom_Let_There_Be_Carnage_2021 --> Spider_Man_No_Way_Home_2021
 
   %% Spider-Verse Connections
-  Spider_Man_2002 --> Spider_Man_2_2004
-  Spider_Man_2_2004 --> Spider_Man_3_2007
-  Spider_Man_3_2007 --> Spider_Man_No_Way_Home_2021
-  Amazing_Spider_Man_2012 --> Amazing_Spider_Man_2_2014
-  Amazing_Spider_Man_2_2014 --> Spider_Man_No_Way_Home_2021
+  Spider_Man_2002 -- Peter 2's appearance --> Spider_Man_2_2004
+  Spider_Man_2_2004 -- Peter 2's appearance --> Spider_Man_3_2007
+  Spider_Man_3_2007 -- Peter 2's appearance --> Spider_Man_No_Way_Home_2021
+  Amazing_Spider_Man_2012 -- Peter 3's appearance --> Amazing_Spider_Man_2_2014
+  Amazing_Spider_Man_2_2014 --> -- Peter 3's appearance Spider_Man_No_Way_Home_2021
 
   %% Phase 1 dependencies
-  Iron_Man_2008 --> Iron_Man_2_2010
-  Incredible_Hulk_2008 --> Avengers_2012
-  Iron_Man_2_2010 --> Thor_2011
-  Thor_2011 --> Avengers_2012
-  Captain_America_The_First_Avenger_2011 --> Avengers_2012
+  Iron_Man_2008 -- Tony Stark's appearance --> Iron_Man_2_2010
+  Incredible_Hulk_2008 -- Bruce Banner's story context --> Avengers_2012
+  Iron_Man_2_2010 -- Mjolnir's appearance --> Thor_2011
+  Thor_2011 -- Thor's appearance --> Avengers_2012
+  Captain_America_The_First_Avenger_2011 -- Steve Roger's appearance --> Avengers_2012
 
   %% Phase 2 dependencies
-  Avengers_2012 --> Iron_Man_3_2013
-  Avengers_2012 --> Thor_The_Dark_World_2013
-  Avengers_2012 --> Captain_America_The_Winter_Soldier_2014
-  Avengers_2012 --> Guardians_of_the_Galaxy_2014
-  Iron_Man_3_2013 --> Avengers_Age_of_Ultron_2015
-  Thor_The_Dark_World_2013 --> Avengers_Age_of_Ultron_2015
-  Captain_America_The_Winter_Soldier_2014 --> Avengers_Age_of_Ultron_2015
-  Avengers_Age_of_Ultron_2015 --> Ant_Man_2015
-  Avengers_Age_of_Ultron_2015 --> Thor_Ragnarok_2017
+  Avengers_2012 -- Tony Stark's appearance --> Iron_Man_3_2013
+  Avengers_2012 -- Thor's appearance --> Thor_The_Dark_World_2013
+  Avengers_2012 -- Steve Roger's appearance --> Captain_America_The_Winter_Soldier_2014
+  Avengers_2012 -- Thanos' appearance --> Guardians_of_the_Galaxy_2014
+  Iron_Man_3_2013 -- Tony Stark's appearance --> Avengers_Age_of_Ultron_2015
+  Thor_The_Dark_World_2013 -- Thor's appearance --> Avengers_Age_of_Ultron_2015
+  Captain_America_The_Winter_Soldier_2014 -- Steve Roger's appearance --> Avengers_Age_of_Ultron_2015
+  Avengers_Age_of_Ultron_2015 -- Sam Wilson and Avengers Tower's appearance --> Ant_Man_2015
+  Avengers_Age_of_Ultron_2015 -- Thor's appearance --> Thor_Ragnarok_2017
 
   %% Phase 3 dependencies
-  Ant_Man_2015 --> Captain_America_Civil_War_2016
-  Captain_America_Civil_War_2016 --> Spider_Man_Homecoming_2017
-  Captain_America_Civil_War_2016 --> Black_Panther_2018
-  Captain_America_Civil_War_2016 --> Ant_Man_and_the_Wasp_2018
-  Doctor_Strange_2016 --> Avengers_Infinity_War_2018
-  Spider_Man_Homecoming_2017 --> Avengers_Infinity_War_2018
-  Guardians_of_the_Galaxy_Vol2_2017 --> Avengers_Infinity_War_2018
-  Thor_Ragnarok_2017 --> Avengers_Infinity_War_2018
-  Black_Panther_2018 --> Avengers_Infinity_War_2018
+  Ant_Man_2015 -- Scott Lang's appearance --> Captain_America_Civil_War_2016
+  Captain_America_Civil_War_2016 -- Peter 1's appearance --> Spider_Man_Homecoming_2017
+  Captain_America_Civil_War_2016 -- T'Challa's appearance --> Black_Panther_2018
+  Captain_America_Civil_War_2016 -- Scott Lang's appearance --> Ant_Man_and_the_Wasp_2018
+  Doctor_Strange_2016 -- Dr. Steven Strange's appearance --> Avengers_Infinity_War_2018
+  Spider_Man_Homecoming_2017 -- Peter 1's appearance --> Avengers_Infinity_War_2018
+  Guardians_of_the_Galaxy_Vol2_2017 -- Peter Quill and others' appearance --> Avengers_Infinity_War_2018
+  Thor_Ragnarok_2017 -- Thor's appearance --> Avengers_Infinity_War_2018
+  Black_Panther_2018 -- T'Challa's appearance --> Avengers_Infinity_War_2018
   Avengers_Infinity_War_2018 --> Avengers_Endgame_2019
   Ant_Man_and_the_Wasp_2018 --> Avengers_Endgame_2019
   Captain_Marvel_2019 --> Avengers_Endgame_2019
