@@ -1,3 +1,4 @@
+```mermaid
 graph LR
   %% MCU Phase 1
   Iron_Man_2008["Iron Man (2008)"]
@@ -213,3 +214,4 @@ graph LR
 
   %% Fantastic Four Connections
   Fantastic_Four_2005 --> Fantastic_Four_Rise_2007
+```
