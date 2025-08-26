@@ -150,25 +150,25 @@ graph LR
   Guardians_of_the_Galaxy_Vol2_2017 -- Peter Quill and others' appearance --> Avengers_Infinity_War_2018
   Thor_Ragnarok_2017 -- Thor's appearance --> Avengers_Infinity_War_2018
   Black_Panther_2018 -- T'Challa's appearance --> Avengers_Infinity_War_2018
-  Avengers_Infinity_War_2018 --> Avengers_Endgame_2019
-  Ant_Man_and_the_Wasp_2018 --> Avengers_Endgame_2019
-  Captain_Marvel_2019 --> Avengers_Endgame_2019
-  Avengers_Endgame_2019 --> Spider_Man_Far_From_Home_2019
+  Avengers_Infinity_War_2018 -- Avenger's appearance --> Avengers_Endgame_2019
+  Ant_Man_and_the_Wasp_2018 -- Scott Lang's appearance --> Avengers_Endgame_2019
+  Captain_Marvel_2019 Captain Marvel's appearance --> Avengers_Endgame_2019
+  Avengers_Endgame_2019 -- Peter 1's appearance --> Spider_Man_Far_From_Home_2019
 
   %% Phase 4 dependencies (selected)
-  Avengers_Endgame_2019 --> WandaVision_2021
-  Avengers_Endgame_2019 --> Falcon_and_Winter_Soldier_2021
-  Avengers_Endgame_2019 --> Black_Widow_2021
-  Avengers_Endgame_2019 --> Loki_2021
-  Avengers_Endgame_2019 --> Shang_Chi_2021
-  Avengers_Endgame_2019 --> Eternals_2021
-  Avengers_Endgame_2019 --> Hawkeye_2021
-  Avengers_Endgame_2019 --> Ms_Marvel_2022
-  Avengers_Endgame_2019 --> Thor_Love_and_Thunder_2022
-  Avengers_Endgame_2019 --> Black_Panther_Wakanda_Forever_2022
-  Spider_Man_Far_From_Home_2019 --> Spider_Man_No_Way_Home_2021
-  Spider_Man_Far_From_Home_2019 --> She_Hulk_2022
-  Shang_Chi_2021 --> She_Hulk_2022
+  Avengers_Endgame_2019 -- Wanda Maximoff's appearance --> WandaVision_2021
+  Avengers_Endgame_2019 Sam Wilson and Bucky Barnes' appearance --> Falcon_and_Winter_Soldier_2021
+  Avengers_Endgame_2019 -- Natasha Romanoff's --> Black_Widow_2021
+  Avengers_Endgame_2019 -- Loki escapes with the Tesseract during the time heist creating new time branch--> Loki_2021
+  Avengers_Endgame_2019 -- Wong and Bruce's appearance --> Shang_Chi_2021
+  Avengers_Endgame_2019 -- Thanos' snap and blip reference --> Eternals_2021
+  Avengers_Endgame_2019 -- Clint Barton's appearance --> Hawkeye_2021
+  Avengers_Endgame_2019 -- Blip reference in Kamala's world --> Ms_Marvel_2022
+  Avengers_Endgame_2019 -- Thor's appearance --> Thor_Love_and_Thunder_2022
+  Avengers_Endgame_2019 -- Okoye, Shuri, M'Baku appearance --> Black_Panther_Wakanda_Forever_2022
+  Spider_Man_Far_From_Home_2019 -- Peter 1's appearance --> Spider_Man_No_Way_Home_2021
+  Spider_Man_Far_From_Home_2019 -- Matt Murdock's appearance --> She_Hulk_2022
+  Shang_Chi_2021 -- Emil Blonsky's appearance --> She_Hulk_2022
   Shang_Chi_2021 --> What_If_Season_2_2023
   Eternals_2021 --> What_If_Season_2_2023
   Spider_Man_No_Way_Home_2021 --> Doctor_Strange_Multiverse_of_Madness_2022
