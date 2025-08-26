@@ -116,11 +116,11 @@ graph LR
   Venom_Let_There_Be_Carnage_2021 --> Spider_Man_No_Way_Home_2021
 
   %% Spider-Verse Connections
-  Spider_Man_2002 -- Peter 2's appearance --> Spider_Man_2_2004
-  Spider_Man_2_2004 -- Peter 2's appearance --> Spider_Man_3_2007
-  Spider_Man_3_2007 -- Peter 2's appearance --> Spider_Man_No_Way_Home_2021
-  Amazing_Spider_Man_2012 -- Peter 3's appearance --> Amazing_Spider_Man_2_2014
-  Amazing_Spider_Man_2_2014 --> -- Peter 3's appearance Spider_Man_No_Way_Home_2021
+  Spider_Man_2002 -- |Peter 2's appearance| --> Spider_Man_2_2004
+  Spider_Man_2_2004 -- |Peter 2's appearance| --> Spider_Man_3_2007
+  Spider_Man_3_2007 -- |Peter 2's appearance| --> Spider_Man_No_Way_Home_2021
+  Amazing_Spider_Man_2012 -- |Peter 3's appearance| --> Amazing_Spider_Man_2_2014
+  Amazing_Spider_Man_2_2014 -- |Peter 3's appearance| --> Spider_Man_No_Way_Home_2021
 
   %% Phase 1 dependencies
   Iron_Man_2008 -- Tony Stark's appearance --> Iron_Man_2_2010
